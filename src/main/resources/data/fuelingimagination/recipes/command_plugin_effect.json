@@ -1,0 +1,36 @@
+{
+    "type":  "minecraft:crafting_shaped",
+    "category":  "misc",
+    "pattern":  [
+                    "ABC",
+                    "DED",
+                    "FGF"
+                ],
+    "key":  {
+                "A":  {
+                          "item":  "create:fluid_tank"
+                      },
+                "B":  {
+                          "item":  "create:propeller"
+                      },
+                "C":  {
+                          "item":  "create:crafter_slot_cover"
+                      },
+                "D":  {
+                          "item":  "minecraft:glass_bottle"
+                      },
+                "E":  {
+                          "item":  "fuelingimagination:instruction_interface"
+                      },
+                "F":  {
+                          "item":  "create:depot"
+                      },
+                "G":  {
+                          "item":  "create:sturdy_sheet"
+                      }
+            },
+    "result":  {
+                   "item":  "fuelingimagination:command_plugin_effect",
+                   "count":  1
+               }
+}

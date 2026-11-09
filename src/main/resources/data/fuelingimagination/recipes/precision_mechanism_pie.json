@@ -1,0 +1,67 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "fuelingimagination:universal_component"
+  },
+  "transitionalItem": {
+    "item": "fuelingimagination:incomplete_precision_mechanism_pie"
+  },
+  "sequence": [
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "fuelingimagination:incomplete_precision_mechanism_pie"
+        },
+        {
+          "fluid": "minecraft:water",
+          "amount": 500,
+          "nbt": {}
+        }
+      ],
+      "results": [
+        {
+          "item": "fuelingimagination:incomplete_precision_mechanism_pie"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "fuelingimagination:incomplete_precision_mechanism_pie"
+        },
+        {
+          "item": "minecraft:phantom_membrane"
+        }
+      ],
+      "results": [
+        {
+          "item": "fuelingimagination:incomplete_precision_mechanism_pie"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "fuelingimagination:incomplete_precision_mechanism_pie"
+        },
+        {
+          "item": "minecraft:sweet_berries"
+        }
+      ],
+      "results": [
+        {
+          "item": "fuelingimagination:incomplete_precision_mechanism_pie"
+        }
+      ]
+    }
+  ],
+  "loops": 1,
+  "results": [
+    {
+      "item": "fuelingimagination:precision_mechanism_pie"
+    }
+  ]
+}

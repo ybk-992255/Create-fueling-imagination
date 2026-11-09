@@ -1,0 +1,27 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "com.fuelingimagination.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "BacktankUtilMixin",
+    "BacktankBlockEntityMixin",
+    "BacktankBlockMixin",
+    "BlockSmeltMixin",
+    "PackageEntityMixin",
+    "HandCrankBlockMixin",
+    "HandCrankBlockEntityMixin",
+    "KineticBlockEntityMixin",
+    "LivingEntityInvoker",
+    "ArmorModeInventoryMixin"
+  ],
+  "client": [
+    "PlayerModelMixin",
+    "HumanoidArmorLayerMixin",
+    "ItemInHandLayerMixin",
+    "PlayerItemInHandLayerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "fuelingimagination:root",
+  "display": {
+    "icon": {"item": "fuelingimagination:powered_sword"},
+    "title": {"text": "万用工具"},
+    "description": {"text": "精妙的设计"},
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {"unlock": {"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":["fuelingimagination:powered_sword"]}]}}}
+}

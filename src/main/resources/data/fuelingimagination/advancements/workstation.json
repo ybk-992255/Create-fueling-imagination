@@ -1,0 +1,13 @@
+{
+  "parent": "fuelingimagination:dismantler",
+  "display": {
+    "icon": {"item": "fuelingimagination:powered_artisan_table"},
+    "title": {"text": "手工作坊"},
+    "description": {"text": "前辈的手艺真好啊"},
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {"unlock": {"trigger": "minecraft:inventory_changed", "conditions": {"items": [{"items": ["fuelingimagination:powered_artisan_table"]}]}}}
+}

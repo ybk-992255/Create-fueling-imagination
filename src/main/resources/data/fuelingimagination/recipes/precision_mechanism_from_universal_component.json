@@ -1,0 +1,15 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "fuelingimagination:universal_component"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:precision_mechanism",
+      "count": 16
+    }
+  ],
+  "processingTime": 100
+}

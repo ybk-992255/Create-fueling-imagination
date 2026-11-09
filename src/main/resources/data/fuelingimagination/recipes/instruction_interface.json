@@ -1,0 +1,24 @@
+{
+    "type":  "minecraft:crafting_shaped",
+    "category":  "misc",
+    "pattern":  [
+                    "ABA",
+                    "BCB",
+                    "ABA"
+                ],
+    "key":  {
+                "A":  {
+                          "item":  "create:crafter_slot_cover"
+                      },
+                "B":  {
+                          "item":  "create:minecart_coupling"
+                      },
+                "C":  {
+                          "item":  "create:placard"
+                      }
+            },
+    "result":  {
+                   "item":  "fuelingimagination:instruction_interface",
+                   "count":  1
+               }
+}

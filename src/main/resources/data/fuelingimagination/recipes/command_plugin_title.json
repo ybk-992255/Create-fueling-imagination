@@ -1,0 +1,27 @@
+{
+    "type":  "minecraft:crafting_shaped",
+    "category":  "misc",
+    "pattern":  [
+                    " A ",
+                    "BCB",
+                    " D "
+                ],
+    "key":  {
+                "A":  {
+                          "item":  "create:clipboard"
+                      },
+                "B":  {
+                          "item":  "create:sturdy_sheet"
+                      },
+                "C":  {
+                          "item":  "fuelingimagination:instruction_interface"
+                      },
+                "D":  {
+                          "item":  "minecraft:oak_sign"
+                      }
+            },
+    "result":  {
+                   "item":  "fuelingimagination:command_plugin_title",
+                   "count":  1
+               }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "fuelingimagination:artisan_crafting",
+  "category": "misc",
+  "pattern": [
+    "ABC",
+    "DEF",
+    "GHI"
+  ],
+  "key": {
+    "A": { "item": "create:sturdy_sheet" },
+    "B": { "item": "create:mechanical_arm" },
+    "C": { "item": "create:rose_quartz_lamp" },
+    "D": { "item": "fuelingimagination:universal_component" },
+    "E": { "item": "fuelingimagination:command_core" },
+    "F": { "item": "fuelingimagination:universal_component" },
+    "G": { "item": "create:stressometer" },
+    "H": { "item": "fuelingimagination:command_block_frame" },
+    "I": { "item": "create:display_board" }
+  },
+  "result": { "item": "fuelingimagination:command_block_q", "count": 1 }
+}

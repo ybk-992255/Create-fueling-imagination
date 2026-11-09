@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": { "item": "create:creative_motor" }
+  },
+  "result": { "item": "create:creative_motor", "count": 1 }
+}

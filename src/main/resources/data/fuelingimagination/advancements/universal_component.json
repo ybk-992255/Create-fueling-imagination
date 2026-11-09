@@ -1,0 +1,13 @@
+{
+  "parent": "fuelingimagination:compressed_train",
+  "display": {
+    "icon": {"item": "fuelingimagination:universal_component"},
+    "title": {"text": "极高兼容"},
+    "description": {"text": "前辈到底都研究到什么地步。。。"},
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {"unlock": {"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":["fuelingimagination:universal_component"]}]}}}
+}

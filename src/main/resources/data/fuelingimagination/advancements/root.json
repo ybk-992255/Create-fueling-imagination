@@ -1,0 +1,13 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/deepslate_tiles.png",
+    "icon": {"item": "fuelingimagination:repair_manual"},
+    "title": {"text": "前辈的笔记"},
+    "description": {"text": "但是前辈去哪里了？"},
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {"unlock": {"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":["fuelingimagination:repair_manual"]}]}}}
+}

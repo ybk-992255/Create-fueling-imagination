@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/block",
+  "loader": "forge:obj",
+  "flip_v": false,
+  "automatic_culling": false,
+  "render_type": "minecraft:cutout",
+  "model": "fuelingimagination:models/block/powered_artisan_table_active.obj",
+  "textures": {
+    "texture0": "fuelingimagination:block/powered_artisan_table_active",
+    "particle": "fuelingimagination:block/powered_artisan_table_active"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "create:creative_crate",
+    "create:creative_fluid_tank",
+    "create:creative_motor",
+    "fuelingimagination:damaged_command_block"
+  ]
+}

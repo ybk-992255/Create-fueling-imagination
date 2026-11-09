@@ -1,0 +1,13 @@
+{
+  "parent": "fuelingimagination:scrap_crate",
+  "display": {
+    "icon": {"item": "fuelingimagination:powered_dismantler"},
+    "title": {"text": "垃圾回收"},
+    "description": {"text": "我得记得别把好的东西放到里面了"},
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {"unlock": {"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":["fuelingimagination:powered_dismantler"]}]}}}
+}

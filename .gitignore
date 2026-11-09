@@ -1,0 +1,34 @@
+# eclipse
+bin
+*.launch
+.settings
+.metadata
+.classpath
+.project
+
+# idea
+out
+*.ipr
+*.iws
+*.iml
+.idea
+
+# gradle
+build
+.gradle
+
+# other
+eclipse
+run
+
+# Files from Forge MDK
+forge*changelog.txt
+
+# 构建/调试日志（历史上堆了 90 多个 err*.log / build-*.log，不进版本库）
+*.log
+*.log.*
+
+# 本地工具与临时产物
+_toolchain/
+*.bak
+*.tmp

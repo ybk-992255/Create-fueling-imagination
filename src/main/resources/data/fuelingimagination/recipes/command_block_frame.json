@@ -1,0 +1,19 @@
+{
+  "type": "fuelingimagination:artisan_crafting",
+  "category": "misc",
+  "pattern": [
+    "ABC",
+    "DEF",
+    "G  "
+  ],
+  "key": {
+    "A": { "item": "minecraft:copper_ingot" },
+    "B": { "item": "minecraft:copper_ingot" },
+    "C": { "item": "minecraft:copper_ingot" },
+    "D": { "item": "minecraft:clay_ball" },
+    "E": { "item": "fuelingimagination:damaged_command_block_frame" },
+    "F": { "item": "minecraft:clay_ball" },
+    "G": { "item": "minecraft:clay_ball" }
+  },
+  "result": { "item": "fuelingimagination:command_block_frame", "count": 1 }
+}

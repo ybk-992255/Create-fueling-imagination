@@ -1,0 +1,13 @@
+{
+  "parent": "fuelingimagination:damaged_command",
+  "display": {
+    "icon": {"item": "fuelingimagination:command_block_q"},
+    "title": {"text": "真正的禁忌"},
+    "description": {"text": "我不知道，这是什么东西，我只知道，她在这里，她一定在这里！"},
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {"unlock": {"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":["fuelingimagination:command_block_q"]}]}}}
+}

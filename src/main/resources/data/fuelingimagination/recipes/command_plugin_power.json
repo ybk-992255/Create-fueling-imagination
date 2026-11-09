@@ -1,0 +1,33 @@
+{
+    "type":  "minecraft:crafting_shaped",
+    "category":  "misc",
+    "pattern":  [
+                    "ABA",
+                    "CDC",
+                    "EFE"
+                ],
+    "key":  {
+                "A":  {
+                          "item":  "create:steam_engine"
+                      },
+                "B":  {
+                          "item":  "create:hand_crank"
+                      },
+                "C":  {
+                          "item":  "create:fluid_tank"
+                      },
+                "D":  {
+                          "item":  "fuelingimagination:instruction_interface"
+                      },
+                "E":  {
+                          "item":  "create:blaze_burner"
+                      },
+                "F":  {
+                          "item":  "create:deployer"
+                      }
+            },
+    "result":  {
+                   "item":  "fuelingimagination:command_plugin_power",
+                   "count":  1
+               }
+}

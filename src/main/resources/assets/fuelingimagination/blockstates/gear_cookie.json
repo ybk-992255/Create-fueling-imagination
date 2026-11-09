@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "cookies=1": {
+      "model": "fuelingimagination:block/gear_cookie_1"
+    },
+    "cookies=2": {
+      "model": "fuelingimagination:block/gear_cookie_2"
+    },
+    "cookies=3": {
+      "model": "fuelingimagination:block/gear_cookie_3"
+    },
+    "cookies=4": {
+      "model": "fuelingimagination:block/gear_cookie_4"
+    },
+    "cookies=5": {
+      "model": "fuelingimagination:block/gear_cookie_5"
+    },
+    "cookies=6": {
+      "model": "fuelingimagination:block/gear_cookie_6"
+    }
+  }
+}

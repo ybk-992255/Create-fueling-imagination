@@ -1,0 +1,11 @@
+{
+  "loader": "forge:obj",
+  "flip_v": false,
+  "automatic_culling": false,
+  "render_type": "minecraft:cutout",
+  "model": "fuelingimagination:models/block/precision_mechanism_pie.obj",
+  "textures": {
+    "texture0": "fuelingimagination:block/precision_mechanism_pie",
+    "particle": "fuelingimagination:block/precision_mechanism_pie"
+  }
+}

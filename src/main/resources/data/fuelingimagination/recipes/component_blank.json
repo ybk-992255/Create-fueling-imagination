@@ -1,0 +1,71 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "fuelingimagination:component_base"
+  },
+  "transitionalItem": {
+    "item": "fuelingimagination:incomplete_component_blank"
+  },
+  "sequence": [
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "fuelingimagination:incomplete_component_blank"
+        }
+      ],
+      "results": [
+        {
+          "item": "fuelingimagination:incomplete_component_blank"
+        }
+      ],
+      "processingTime": 100
+    },
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "fuelingimagination:incomplete_component_blank"
+        }
+      ],
+      "results": [
+        {
+          "item": "fuelingimagination:incomplete_component_blank"
+        }
+      ],
+      "processingTime": 100
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "fuelingimagination:incomplete_component_blank"
+        }
+      ],
+      "results": [
+        {
+          "item": "fuelingimagination:incomplete_component_blank"
+        }
+      ]
+    }
+  ],
+  "loops": 2,
+  "results": [
+    {
+      "item": "fuelingimagination:component_blank",
+      "chance": 27
+    },
+    {
+      "item": "create:golden_sheet",
+      "chance": 1
+    },
+    {
+      "item": "minecraft:light_weighted_pressure_plate",
+      "chance": 1
+    },
+    {
+      "item": "minecraft:gold_ingot",
+      "chance": 1
+    }
+  ]
+}

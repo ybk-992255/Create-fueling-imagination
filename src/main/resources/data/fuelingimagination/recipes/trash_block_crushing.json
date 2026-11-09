@@ -1,0 +1,39 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "fuelingimagination:trash_block"
+    }
+  ],
+  "processingTime": 300,
+  "results": [
+    {
+      "item": "minecraft:iron_nugget",
+      "chance": 0.5
+    },
+    {
+      "item": "minecraft:gold_nugget",
+      "chance": 0.5
+    },
+    {
+      "item": "create:zinc_nugget",
+      "chance": 0.5
+    },
+    {
+      "item": "create:brass_nugget",
+      "chance": 0.5
+    },
+    {
+      "item": "create:andesite_alloy",
+      "chance": 0.5
+    },
+    {
+      "item": "create:cogwheel",
+      "chance": 0.5
+    },
+    {
+      "item": "create:large_cogwheel",
+      "chance": 0.5
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+    "type":  "minecraft:crafting_shaped",
+    "category":  "misc",
+    "pattern":  [
+                    "ABC",
+                    "DEF",
+                    "GHG"
+                ],
+    "key":  {
+                "A":  {
+                          "item":  "minecraft:enchanted_book"
+                      },
+                "B":  {
+                          "item":  "minecraft:fire_charge"
+                      },
+                "C":  {
+                          "item":  "minecraft:heart_of_the_sea"
+                      },
+                "D":  {
+                          "item":  "minecraft:lightning_rod"
+                      },
+                "E":  {
+                          "item":  "fuelingimagination:instruction_interface"
+                      },
+                "F":  {
+                          "item":  "create:spout"
+                      },
+                "G":  {
+                          "item":  "create:precision_mechanism"
+                      },
+                "H":  {
+                          "item":  "minecraft:dragon_breath"
+                      }
+            },
+    "result":  {
+                   "item":  "fuelingimagination:command_plugin_weather",
+                   "count":  1
+               }
+}

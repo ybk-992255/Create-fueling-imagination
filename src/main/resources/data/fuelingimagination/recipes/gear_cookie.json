@@ -1,0 +1,17 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {"item": "create:cogwheel"},
+  "transitionalItem": {"item": "fuelingimagination:incomplete_gear_cookie"},
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {"item": "fuelingimagination:incomplete_gear_cookie"},
+        {"item": "minecraft:cocoa_beans"}
+      ],
+      "results": [{"item": "fuelingimagination:incomplete_gear_cookie"}]
+    }
+  ],
+  "loops": 2,
+  "results": [{"item": "fuelingimagination:gear_cookie"}]
+}

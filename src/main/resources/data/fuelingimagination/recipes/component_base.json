@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG"
+  ],
+  "key": {
+    "G": {
+      "item": "create:golden_sheet"
+    }
+  },
+  "result": {
+    "item": "fuelingimagination:component_base"
+  }
+}

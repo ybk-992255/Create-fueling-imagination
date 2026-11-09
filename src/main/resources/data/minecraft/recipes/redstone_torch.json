@@ -1,0 +1,13 @@
+{
+  "type": "fuelingimagination:artisan_crafting",
+  "category": "redstone",
+  "pattern": [
+    "R",
+    "S"
+  ],
+  "key": {
+    "R": { "item": "minecraft:redstone" },
+    "S": { "item": "minecraft:stick" }
+  },
+  "result": { "item": "minecraft:redstone_torch", "count": 1 }
+}

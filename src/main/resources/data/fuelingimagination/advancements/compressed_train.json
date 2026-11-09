@@ -1,0 +1,13 @@
+{
+  "parent": "fuelingimagination:root",
+  "display": {
+    "icon": {"item": "fuelingimagination:compressed_gear_train"},
+    "title": {"text": "压缩技术"},
+    "description": {"text": "这是人能想出来结构么？"},
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {"unlock": {"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":["fuelingimagination:compressed_gear_train"]}]}}}
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "fuelingimagination:damaged_component"
+    }
+  },
+  "result": {
+    "item": "fuelingimagination:trash_block"
+  }
+}

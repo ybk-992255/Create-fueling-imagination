@@ -1,0 +1,25 @@
+pluginManagement {
+    repositories {
+        // Aliyun first: complete Maven Central mirror. BMCLAPI is scoped to Forge
+        // groups only, because it redirects uncached files to a host this network
+        // cannot reach, and a connection failure aborts resolution instead of
+        // falling through to the next repository.
+        maven {
+            name = 'centralMirror'
+            url = 'https://maven.aliyun.com/repository/public'
+        }
+        maven {
+            name = 'forgeMirror'
+            url = 'https://bmclapi2.bangbang93.com/maven'
+            content {
+                includeGroupByRegex 'net\\.minecraftforge.*'
+                includeGroupByRegex 'de\\.oceanlabs.*'
+                includeGroupByRegex 'cpw\\.mods.*'
+            }
+        }
+        gradlePluginPortal()
+    }
+}
+// Toolchain auto-provisioning is disabled intentionally: JDK 17 is installed locally,
+// and the foojay resolver would otherwise require the unreliable plugin portal.
+rootProject.name = 'CreateGourmetFood'

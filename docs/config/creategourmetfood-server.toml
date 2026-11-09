@@ -1,0 +1,7 @@
+# Copy to the world's serverconfig directory, or use defaultconfigs for new worlds.
+# Probability applies to all artisan crafting recipes, independently of their JSON definitions.
+[artisanCrafting]
+# Independent chance per occupied ingredient slot, per craft. Range: 0.0 to 1.0.
+materialRetentionChance = 0.1
+# Safety ceiling per lever pull (especially for 100% retention). Range: 1 to 65536.
+maxCraftsPerBatch = 4096

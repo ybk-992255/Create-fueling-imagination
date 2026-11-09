@@ -1,0 +1,42 @@
+{
+    "type":  "minecraft:crafting_shaped",
+    "category":  "misc",
+    "pattern":  [
+                    "ABC",
+                    "DEF",
+                    "GHI"
+                ],
+    "key":  {
+                "A":  {
+                          "item":  "minecraft:note_block"
+                      },
+                "B":  {
+                          "item":  "minecraft:jukebox"
+                      },
+                "C":  {
+                          "item":  "minecraft:calibrated_sculk_sensor"
+                      },
+                "D":  {
+                          "item":  "create:peculiar_bell"
+                      },
+                "E":  {
+                          "item":  "fuelingimagination:instruction_interface"
+                      },
+                "F":  {
+                          "item":  "create:haunted_bell"
+                      },
+                "G":  {
+                          "item":  "create:steam_whistle"
+                      },
+                "H":  {
+                          "item":  "minecraft:bell"
+                      },
+                "I":  {
+                          "item":  "create:desk_bell"
+                      }
+            },
+    "result":  {
+                   "item":  "fuelingimagination:command_plugin_sound",
+                   "count":  1
+               }
+}

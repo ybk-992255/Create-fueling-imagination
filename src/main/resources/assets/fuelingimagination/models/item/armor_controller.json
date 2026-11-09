@@ -1,0 +1,124 @@
+{
+  "parent": "minecraft:block/block",
+  "loader": "forge:obj",
+  "model": "fuelingimagination:models/item/armor_controller.obj",
+  "flip_v": false,
+  "automatic_culling": false,
+  "textures": {
+    "texture0": "fuelingimagination:item/armor_controller",
+    "particle": "fuelingimagination:item/armor_controller"
+  },
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [
+        75,
+        -77,
+        2
+      ],
+      "translation": [
+        0,
+        -2.5,
+        -0.75
+      ],
+      "scale": [
+        0.64,
+        0.64,
+        0.64
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        75,
+        -77,
+        2
+      ],
+      "translation": [
+        0,
+        -2.5,
+        -0.75
+      ],
+      "scale": [
+        0.64,
+        0.64,
+        0.64
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        -5,
+        86,
+        0
+      ],
+      "translation": [
+        1,
+        -1.25,
+        0
+      ],
+      "scale": [
+        0.88,
+        0.88,
+        0.88
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        -5,
+        86,
+        0
+      ],
+      "translation": [
+        1,
+        -1.25,
+        0
+      ],
+      "scale": [
+        0.88,
+        0.88,
+        0.88
+      ]
+    },
+    "ground": {
+      "translation": [
+        0,
+        2,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "gui": {
+      "rotation": [
+        30,
+        -135,
+        0
+      ],
+      "translation": [
+        0.25,
+        2.25,
+        0
+      ],
+      "scale": [
+        0.79,
+        0.79,
+        0.79
+      ]
+    },
+    "head": {
+      "translation": [
+        0,
+        2.75,
+        0
+      ]
+    },
+    "fixed": {
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    }
+  }
+}

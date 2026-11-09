@@ -1,0 +1,33 @@
+{
+  "items": [
+    "fuelingimagination:powered_sword"
+  ],
+  "slots": [
+    {
+      "id": "material",
+      "type": "material",
+      "accepts": [
+        { "item": "minecraft:copper_ingot", "damage": 3, "gas_speed": -0.2, "dry_speed": -0.6 },
+        { "item": "minecraft:iron_ingot", "damage": 6, "gas_speed": -0.2, "dry_speed": -0.8 },
+        { "item": "create:brass_ingot", "damage": 2, "gas_speed": 1.2, "dry_speed": 0.2 },
+        { "item": "create:sturdy_sheet", "damage": 8, "gas_speed": 0.5, "dry_speed": 0.5 }
+      ]
+    },
+    { "id": "accessory_1", "type": "accessory", "accepts": [
+        "create:mechanical_saw", "create:mechanical_drill", "create:blaze_burner",
+        "create:encased_fan", "create:rope_pulley", "create:package_frogport", "create:mechanical_plough"
+    ] },
+    { "id": "accessory_2", "type": "accessory", "accepts": [
+        "create:mechanical_saw", "create:mechanical_drill", "create:blaze_burner",
+        "create:encased_fan", "create:rope_pulley", "create:package_frogport", "create:mechanical_plough"
+    ] },
+    { "id": "accessory_3", "type": "accessory", "accepts": [
+        "create:mechanical_saw", "create:mechanical_drill", "create:blaze_burner",
+        "create:encased_fan", "create:rope_pulley", "create:package_frogport", "create:mechanical_plough"
+    ] },
+    { "id": "accessory_4", "type": "accessory", "accepts": [
+        "create:mechanical_saw", "create:mechanical_drill", "create:blaze_burner",
+        "create:encased_fan", "create:rope_pulley", "create:package_frogport", "create:mechanical_plough"
+    ] }
+  ]
+}

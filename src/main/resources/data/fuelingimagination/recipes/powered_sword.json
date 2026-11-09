@@ -1,0 +1,21 @@
+{
+  "type": "fuelingimagination:artisan_crafting",
+  "category": "misc",
+  "pattern": [
+    "ABC",
+    "DEF",
+    "GHI"
+  ],
+  "key": {
+    "A": { "item": "create:crafter_slot_cover" },
+    "B": { "item": "create:brass_ingot" },
+    "C": { "item": "create:zinc_ingot" },
+    "D": { "item": "create:whisk" },
+    "E": { "item": "create:precision_mechanism" },
+    "F": { "item": "create:brass_ingot" },
+    "G": { "item": "create:wrench" },
+    "H": { "item": "create:display_board" },
+    "I": { "item": "create:super_glue" }
+  },
+  "result": { "item": "fuelingimagination:powered_sword", "count": 1 }
+}

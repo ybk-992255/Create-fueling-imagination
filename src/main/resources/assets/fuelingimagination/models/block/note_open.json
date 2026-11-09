@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/block",
+  "loader": "forge:obj",
+  "model": "fuelingimagination:models/block/note_open.obj",
+  "flip_v": false,
+  "automatic_culling": false,
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "texture0": "fuelingimagination:block/note",
+    "particle": "fuelingimagination:block/note"
+  }
+}

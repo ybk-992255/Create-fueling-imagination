@@ -1,0 +1,13 @@
+{
+  "parent": "fuelingimagination:forbidden_tech",
+  "display": {
+    "icon": {"item": "fuelingimagination:damaged_command_block"},
+    "title": {"text": "这是什么？？"},
+    "description": {"text": "你感觉世界出现了一些异常。。。"},
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {"unlock": {"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":["fuelingimagination:damaged_command_block"]}]}}}
+}

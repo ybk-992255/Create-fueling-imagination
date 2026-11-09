@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["ABA", "CDE", "FGF"],
+  "key": {
+    "A": {"item": "fuelingimagination:film_reel"},
+    "B": {"tag": "minecraft:fences"},
+    "C": {"item": "minecraft:glass_pane"},
+    "D": {"item": "minecraft:lantern"},
+    "E": {"item": "minecraft:glass"},
+    "F": {"item": "create:gantry_shaft"},
+    "G": {"item": "create:large_cogwheel"}
+  },
+  "result": {"item": "fuelingimagination:projector", "count": 1}
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "fuelingimagination:root",
+  "display": {
+    "icon": {"item": "fuelingimagination:scrap_crate"},
+    "title": {"text": "变废为宝？"},
+    "description": {"text": "他是怎么弄到这些东西的？"},
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {"unlock": {"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":["fuelingimagination:scrap_crate"]}]}}}
+}

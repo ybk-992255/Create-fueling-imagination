@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": { "item": "create:creative_fluid_tank" }
+  },
+  "result": { "item": "create:creative_fluid_tank", "count": 1 }
+}

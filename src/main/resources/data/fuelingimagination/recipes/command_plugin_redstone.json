@@ -1,0 +1,30 @@
+{
+    "type":  "minecraft:crafting_shaped",
+    "category":  "misc",
+    "pattern":  [
+                    "ABA",
+                    "CDC",
+                    "AEA"
+                ],
+    "key":  {
+                "A":  {
+                          "item":  "create:transmitter"
+                      },
+                "B":  {
+                          "item":  "create:goggles"
+                      },
+                "C":  {
+                          "item":  "create:redstone_link"
+                      },
+                "D":  {
+                          "item":  "fuelingimagination:instruction_interface"
+                      },
+                "E":  {
+                          "item":  "create:linked_controller"
+                      }
+            },
+    "result":  {
+                   "item":  "fuelingimagination:command_plugin_redstone",
+                   "count":  1
+               }
+}

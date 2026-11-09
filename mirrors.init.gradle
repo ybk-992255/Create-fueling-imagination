@@ -1,0 +1,87 @@
+// Repository routing for a network where these hosts are unreachable:
+//   maven.minecraftforge.net  -> BMCLAPI maven mirror (Forge groups only)
+//   repo.maven.apache.org     -> Aliyun public mirror
+//   services.gradle.org       -> Tencent Cloud gradle mirror
+//   plugins.gradle.org        -> reachable but unreliable; kept last
+//
+// Two rules learned the hard way on this network:
+//  1. BMCLAPI redirects uncached artifacts to bmclapiN.sakura.sld.tw, which is
+//     unreachable here. A connection failure aborts resolution instead of
+//     falling through to the next repository, so BMCLAPI must never be asked
+//     for a plain Maven Central artifact.
+//  2. Repository order is therefore load-bearing: mirrors go first, and the
+//     blocked repositories are removed rather than left at the end.
+//
+// Usage: gradle -I mirrors.init.gradle build
+
+// bmclapi2.bangbang93.com load-balances across CERNET nodes and some of them
+// return 503; the cernet.edu.cn endpoint was the stable one when this was set up.
+def bmclapi = 'https://mirrors.cernet.edu.cn/bmclapi'
+def aliyun  = 'https://maven.aliyun.com/repository/public'
+
+// Groups that only the Forge repository serves. Everything else comes from Aliyun.
+def forgeGroups = [
+        'net.minecraftforge', 'de.oceanlabs.mcp', 'cpw.mods', 'net.minecraft',
+        'org.spongepowered'
+]
+
+def blockedHosts = ['maven.minecraftforge.net', 'repo.maven.apache.org', 'repo1.maven.org']
+
+def installMirrors = { repos ->
+    def existing = new ArrayList(repos)
+    repos.clear()
+
+    repos.maven { m ->
+        m.name = 'centralMirror'
+        m.url = aliyun
+    }
+    repos.maven { m ->
+        // com.mojang:* libraries referenced by the 1.20.1 version json (logging, etc.).
+        // ForgeGradle resolves them as ordinary Gradle dependencies while building the
+        // mapped Forge jar, so the repository has to exist on the project itself.
+        m.name = 'mojangLibs'
+        m.url = 'https://libraries.minecraft.net'
+        m.content { c ->
+            c.includeGroupByRegex('com\\.mojang.*')
+            c.includeGroupByRegex('org\\.lwjgl.*')
+            c.includeGroupByRegex('net\\.java\\.dev\\.jna.*')
+        }
+    }
+    repos.maven { m ->
+        m.name = 'forgeMirror'
+        m.url = bmclapi
+        m.content { c ->
+            // Pattern.quote avoids the Groovy backslash-escaping trap that made a
+            // hand-written regex match nothing (and silently filter Forge out).
+            // The optional suffix matters: Forge publishes both 'net.minecraftforge'
+            // itself (artifactural, srgutils, ...) and sub-groups.
+            forgeGroups.each { g -> c.includeGroupByRegex(java.util.regex.Pattern.quote(g) + '(\\..*)?') }
+        }
+    }
+
+    existing.each { r ->
+        if (r.name in ['centralMirror', 'forgeMirror', 'mojangLibs']) return  // rebuilt above
+        // ForgeGradle registers its own artifactural adapters, which are not Maven
+        // repositories and have no 'url'; leave them untouched.
+        if (!(r instanceof org.gradle.api.artifacts.repositories.MavenArtifactRepository)) { repos.add(r); return }
+        def url = r.url.toString()
+        if (blockedHosts.any { url.contains(it) }) return   // replaced by the mirrors above
+        if (url.contains('services.gradle.org')) { r.url = 'https://mirrors.cloud.tencent.com/gradle'; return }
+        repos.add(r)
+    }
+}
+
+settingsEvaluated { settings ->
+    installMirrors(settings.pluginManagement.repositories)
+}
+
+allprojects { p ->
+    installMirrors(p.buildscript.repositories)
+    installMirrors(p.repositories)
+    // ForgeGradle registers its own repositories when it is applied, i.e. after the
+    // block above. Re-run once evaluation is done so the blocked hosts are removed
+    // before any configuration is resolved.
+    p.afterEvaluate {
+        installMirrors(p.repositories)
+    }
+}

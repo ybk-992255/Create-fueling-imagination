@@ -1,0 +1,11 @@
+{
+  "loader": "forge:obj",
+  "flip_v": false,
+  "automatic_culling": false,
+  "render_type": "minecraft:cutout",
+  "model": "fuelingimagination:models/block/gear_cookie_1.obj",
+  "textures": {
+    "texture0": "fuelingimagination:block/gear_cookie",
+    "particle": "fuelingimagination:block/gear_cookie"
+  }
+}

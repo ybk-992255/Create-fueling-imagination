@@ -1,0 +1,22 @@
+{
+  "items": [
+    "fuelingimagination:command_block_q"
+  ],
+  "slots": [
+    {
+      "id": "socket",
+      "type": "socket",
+      "accepts": [
+        "fuelingimagination:instruction_interface",
+        "fuelingimagination:command_plugin_touch",
+        "fuelingimagination:command_plugin_weather",
+        "fuelingimagination:command_plugin_anchor",
+        "fuelingimagination:command_plugin_effect",
+        "fuelingimagination:command_plugin_power",
+        "fuelingimagination:command_plugin_title",
+        "fuelingimagination:command_plugin_sound",
+        "fuelingimagination:command_plugin_redstone"
+      ]
+    }
+  ]
+}

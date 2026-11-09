@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ABA",
+    "CDE",
+    "FGH"
+  ],
+  "key": {
+    "A": { "item": "create:sturdy_sheet" },
+    "B": { "item": "minecraft:emerald_block" },
+    "C": { "item": "minecraft:lapis_block" },
+    "D": { "item": "fuelingimagination:instruction_interface" },
+    "E": { "item": "minecraft:redstone_block" },
+    "F": { "item": "minecraft:red_bed" },
+    "G": { "item": "minecraft:compass" },
+    "H": { "item": "minecraft:respawn_anchor" }
+  },
+  "result": { "item": "fuelingimagination:command_plugin_anchor", "count": 1 }
+}

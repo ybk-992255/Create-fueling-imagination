@@ -1,0 +1,13 @@
+{
+  "parent": "fuelingimagination:workstation",
+  "display": {
+    "icon": {"item": "create:creative_crate"},
+    "title": {"text": "禁忌科技"},
+    "description": {"text": "这是怎么搞到的啊？？"},
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {"unlock": {"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":["create:creative_crate","create:creative_fluid_tank","create:creative_motor"]}]}}}
+}

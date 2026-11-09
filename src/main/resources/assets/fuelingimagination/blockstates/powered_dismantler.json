@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "facing=north,active=false": { "model": "fuelingimagination:block/powered_dismantler", "y": 0 },
+    "facing=north,active=true": { "model": "fuelingimagination:block/powered_dismantler_active", "y": 0 },
+    "facing=east,active=false": { "model": "fuelingimagination:block/powered_dismantler", "y": 90 },
+    "facing=east,active=true": { "model": "fuelingimagination:block/powered_dismantler_active", "y": 90 },
+    "facing=south,active=false": { "model": "fuelingimagination:block/powered_dismantler", "y": 180 },
+    "facing=south,active=true": { "model": "fuelingimagination:block/powered_dismantler_active", "y": 180 },
+    "facing=west,active=false": { "model": "fuelingimagination:block/powered_dismantler", "y": 270 },
+    "facing=west,active=true": { "model": "fuelingimagination:block/powered_dismantler_active", "y": 270 }
+  }
+}

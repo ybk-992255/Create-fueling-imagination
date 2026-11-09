@@ -1,0 +1,27 @@
+{
+  "items": [
+    "create:copper_backtank",
+    "create:netherite_backtank"
+  ],
+  "slots": [
+    { "id": "armor", "type": "armor", "accepts": ["#forge:chestplates"] },
+    {
+      "id": "upgrade_1",
+      "type": "upgrade",
+      "accepts": [
+        "create:precision_mechanism",
+        "fuelingimagination:universal_component",
+        "fuelingimagination:compressed_gear_train"
+      ]
+    },
+    {
+      "id": "upgrade_2",
+      "type": "upgrade",
+      "accepts": [
+        "create:precision_mechanism",
+        "fuelingimagination:universal_component",
+        "fuelingimagination:compressed_gear_train"
+      ]
+    }
+  ]
+}

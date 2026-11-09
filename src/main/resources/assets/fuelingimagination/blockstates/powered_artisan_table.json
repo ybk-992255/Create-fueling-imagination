@@ -1,0 +1,42 @@
+{
+  "variants": {
+    "part=1,facing=north,active=false": {
+      "model": "fuelingimagination:block/powered_artisan_table",
+      "y": 0
+    },
+    "part=1,facing=north,active=true": {
+      "model": "fuelingimagination:block/powered_artisan_table_active",
+      "y": 0
+    },
+    "part=1,facing=east,active=false": {
+      "model": "fuelingimagination:block/powered_artisan_table",
+      "y": 90
+    },
+    "part=1,facing=east,active=true": {
+      "model": "fuelingimagination:block/powered_artisan_table_active",
+      "y": 90
+    },
+    "part=1,facing=south,active=false": {
+      "model": "fuelingimagination:block/powered_artisan_table",
+      "y": 180
+    },
+    "part=1,facing=south,active=true": {
+      "model": "fuelingimagination:block/powered_artisan_table_active",
+      "y": 180
+    },
+    "part=1,facing=west,active=false": {
+      "model": "fuelingimagination:block/powered_artisan_table",
+      "y": 270
+    },
+    "part=1,facing=west,active=true": {
+      "model": "fuelingimagination:block/powered_artisan_table_active",
+      "y": 270
+    },
+    "part=0": {
+      "model": "fuelingimagination:block/powered_artisan_table_part"
+    },
+    "part=2": {
+      "model": "fuelingimagination:block/powered_artisan_table_part"
+    }
+  }
+}

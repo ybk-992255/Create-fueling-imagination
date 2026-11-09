@@ -1,0 +1,13 @@
+{
+  "parent": "fuelingimagination:root",
+  "display": {
+    "icon": {"item": "fuelingimagination:gear_cookie"},
+    "title": {"text": "齿轮小吃"},
+    "description": {"text": "味道还不错"},
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {"unlock": {"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":["fuelingimagination:gear_cookie"]}]}}}
+}

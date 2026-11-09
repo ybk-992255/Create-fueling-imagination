@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ABC",
+    "DEF",
+    "GHI"
+  ],
+  "key": {
+    "A": { "item": "create:large_cogwheel" },
+    "B": { "item": "create:chute" },
+    "C": { "item": "create:cogwheel" },
+    "D": { "item": "create:cogwheel" },
+    "E": { "item": "create:millstone" },
+    "F": { "item": "create:large_cogwheel" },
+    "G": { "item": "create:large_cogwheel" },
+    "H": { "item": "create:smart_chute" },
+    "I": { "item": "create:cogwheel" }
+  },
+  "result": { "item": "fuelingimagination:powered_dismantler", "count": 1 }
+}

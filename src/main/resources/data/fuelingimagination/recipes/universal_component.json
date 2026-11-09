@@ -1,0 +1,80 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "fuelingimagination:component_blank"
+  },
+  "transitionalItem": {
+    "item": "fuelingimagination:incomplete_universal_component"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "fuelingimagination:incomplete_universal_component"
+        },
+        {
+          "item": "fuelingimagination:compressed_gear_train"
+        }
+      ],
+      "results": [
+        {
+          "item": "fuelingimagination:incomplete_universal_component"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "fuelingimagination:incomplete_universal_component"
+        },
+        {
+          "item": "fuelingimagination:compressed_gear_train"
+        }
+      ],
+      "results": [
+        {
+          "item": "fuelingimagination:incomplete_universal_component"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "fuelingimagination:incomplete_universal_component"
+        },
+        {
+          "fluid": "create:honey",
+          "amount": 50,
+          "nbt": {}
+        }
+      ],
+      "results": [
+        {
+          "item": "fuelingimagination:incomplete_universal_component"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "fuelingimagination:incomplete_universal_component"
+        }
+      ],
+      "results": [
+        {
+          "item": "fuelingimagination:incomplete_universal_component"
+        }
+      ]
+    }
+  ],
+  "loops": 9,
+  "results": [
+    {
+      "item": "fuelingimagination:universal_component"
+    }
+  ]
+}

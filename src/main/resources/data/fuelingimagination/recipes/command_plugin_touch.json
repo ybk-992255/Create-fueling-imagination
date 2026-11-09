@@ -1,0 +1,30 @@
+{
+    "type":  "minecraft:crafting_shaped",
+    "category":  "misc",
+    "pattern":  [
+                    "ABC",
+                    "BEB",
+                    "DBA"
+                ],
+    "key":  {
+                "A":  {
+                          "item":  "create:large_cogwheel"
+                      },
+                "B":  {
+                          "item":  "create:cogwheel"
+                      },
+                "C":  {
+                          "item":  "create:extendo_grip"
+                      },
+                "D":  {
+                          "item":  "create:deployer"
+                      },
+                "E":  {
+                          "item":  "fuelingimagination:instruction_interface"
+                      }
+            },
+    "result":  {
+                   "item":  "fuelingimagination:command_plugin_touch",
+                   "count":  1
+               }
+}

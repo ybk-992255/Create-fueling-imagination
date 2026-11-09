@@ -1,0 +1,13 @@
+{
+  "parent": "fuelingimagination:gear_cookie",
+  "display": {
+    "icon": {"item": "fuelingimagination:precision_mechanism_pie"},
+    "title": {"text": "齿轮盛宴"},
+    "description": {"text": "前辈就吃这个么？"},
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {"unlock": {"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":["fuelingimagination:precision_mechanism_pie"]}]}}}
+}

@@ -1,0 +1,31 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "A": { "item": "create:brass_sheet" },
+    "B": { "item": "create:goggles" },
+    "C": { "item": "create:linked_controller" },
+    "D": { "item": "create:copper_backtank" },
+    "E": { "item": "create:brass_hand" },
+    "F": { "item": "create:minecart_coupling" },
+    "G": { "item": "fuelingimagination:universal_component" },
+    "H": { "item": "create:precision_mechanism" },
+    "I": { "item": "create:potato_cannon" },
+    "J": { "item": "create:brown_toolbox" },
+    "K": { "item": "create:sturdy_sheet" },
+    "L": { "item": "create:item_vault" },
+    "M": { "item": "create:electron_tube" },
+    "N": { "item": "create:copper_diving_boots" },
+    "O": { "item": "create:propeller" }
+  },
+  "pattern": [
+    "  ABA  ",
+    " ACDEA ",
+    "AFAGAFA",
+    "HIHJHIH",
+    "KLMGMLK",
+    " KFNFK ",
+    "  AOA  "
+  ],
+  "result": { "item": "fuelingimagination:armor_controller" }
+}

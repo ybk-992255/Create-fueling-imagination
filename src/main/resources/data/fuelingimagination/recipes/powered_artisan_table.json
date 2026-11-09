@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ABC",
+    "DEF",
+    "GHI"
+  ],
+  "key": {
+    "A": { "item": "create:mechanical_arm" },
+    "B": { "item": "create:controls" },
+    "C": { "item": "create:brass_ingot" },
+    "D": { "item": "create:hand_crank" },
+    "E": { "item": "create:wrench" },
+    "F": { "item": "create:analog_lever" },
+    "G": { "item": "minecraft:crafting_table" },
+    "H": { "item": "create:mechanical_bearing" },
+    "I": { "item": "minecraft:smithing_table" }
+  },
+  "result": { "item": "fuelingimagination:powered_artisan_table", "count": 1 }
+}

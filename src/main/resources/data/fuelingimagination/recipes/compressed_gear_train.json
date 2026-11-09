@@ -1,0 +1,211 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:copper_sheet"
+  },
+  "transitionalItem": {
+    "item": "fuelingimagination:incomplete_compressed_gear_train"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "fuelingimagination:incomplete_compressed_gear_train"
+        },
+        {
+          "item": "create:cogwheel"
+        }
+      ],
+      "results": [
+        {
+          "item": "fuelingimagination:incomplete_compressed_gear_train"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "fuelingimagination:incomplete_compressed_gear_train"
+        },
+        {
+          "item": "minecraft:gold_nugget"
+        }
+      ],
+      "results": [
+        {
+          "item": "fuelingimagination:incomplete_compressed_gear_train"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "fuelingimagination:incomplete_compressed_gear_train"
+        }
+      ],
+      "results": [
+        {
+          "item": "fuelingimagination:incomplete_compressed_gear_train"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "fuelingimagination:incomplete_compressed_gear_train"
+        },
+        {
+          "fluid": "minecraft:water",
+          "amount": 10,
+          "nbt": {}
+        }
+      ],
+      "results": [
+        {
+          "item": "fuelingimagination:incomplete_compressed_gear_train"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "fuelingimagination:incomplete_compressed_gear_train"
+        },
+        {
+          "item": "create:cogwheel"
+        }
+      ],
+      "results": [
+        {
+          "item": "fuelingimagination:incomplete_compressed_gear_train"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "fuelingimagination:incomplete_compressed_gear_train"
+        },
+        {
+          "item": "minecraft:iron_nugget"
+        }
+      ],
+      "results": [
+        {
+          "item": "fuelingimagination:incomplete_compressed_gear_train"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "fuelingimagination:incomplete_compressed_gear_train"
+        }
+      ],
+      "results": [
+        {
+          "item": "fuelingimagination:incomplete_compressed_gear_train"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "fuelingimagination:incomplete_compressed_gear_train"
+        },
+        {
+          "fluid": "minecraft:water",
+          "amount": 10,
+          "nbt": {}
+        }
+      ],
+      "results": [
+        {
+          "item": "fuelingimagination:incomplete_compressed_gear_train"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "fuelingimagination:incomplete_compressed_gear_train"
+        },
+        {
+          "item": "create:cogwheel"
+        }
+      ],
+      "results": [
+        {
+          "item": "fuelingimagination:incomplete_compressed_gear_train"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "fuelingimagination:incomplete_compressed_gear_train"
+        },
+        {
+          "item": "create:large_cogwheel"
+        }
+      ],
+      "results": [
+        {
+          "item": "fuelingimagination:incomplete_compressed_gear_train"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "fuelingimagination:incomplete_compressed_gear_train"
+        }
+      ],
+      "results": [
+        {
+          "item": "fuelingimagination:incomplete_compressed_gear_train"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "fuelingimagination:incomplete_compressed_gear_train"
+        },
+        {
+          "fluid": "minecraft:water",
+          "amount": 10,
+          "nbt": {}
+        }
+      ],
+      "results": [
+        {
+          "item": "fuelingimagination:incomplete_compressed_gear_train"
+        }
+      ]
+    }
+  ],
+  "loops": 5,
+  "results": [
+    {
+      "item": "fuelingimagination:compressed_gear_train",
+      "chance": 9
+    },
+    {
+      "item": "fuelingimagination:component_gear_train",
+      "chance": 1
+    }
+  ]
+}

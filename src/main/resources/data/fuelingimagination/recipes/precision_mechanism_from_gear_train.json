@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "fuelingimagination:component_blank"
+    },
+    {
+      "item": "fuelingimagination:component_gear_train"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:precision_mechanism"
+    }
+  ]
+}
